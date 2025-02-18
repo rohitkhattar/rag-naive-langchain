@@ -1,0 +1,20 @@
+[logger]
+level = "error"
+messageFormat = "%(message)s"
+
+[server]
+enableXsrfProtection = true
+enableCORS = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+
+[client]
+showErrorDetails = false
+
+[runner]
+fastReruns = true
+magicEnabled = false 
