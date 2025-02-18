@@ -9,7 +9,7 @@ A Retrieval-Augmented Generation (RAG) application built using the LangChain fra
 - **LLM Providers**:
   - **OpenAI** (GPT-4o-mini)
   - **DeepSeek** (via Ollama with DeepSeek-R1)
-  - **Groq** (Cloud API using models like `mixtral-8x7b-32768`, `llama2-70b-4096`, `deepseek-r1-distill-llama-70b`, `gemma-7b-it`)
+  - **Groq** (Cloud API using models like `mixtral-8x7b-32768`, `llama-3.3-70b-versatile`, `deepseek-r1-distill-llama-70b`, `gemma2-9b-it`)
   - **Ollama** (Local model execution)
 - **Vector Store**: FAISS for fast similarity search.
 - **Document Processing**:
