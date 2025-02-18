@@ -8,11 +8,11 @@ This document provides a detailed technical overview of the PDF Q&A RAG applicat
 
 ```mermaid
 graph TD
-    A[PDF Upload] --> B[Document Processing (load_pdf)]
-    B --> C[Text Chunking & Embedding (create_vector_store)]
+    A[PDF Upload] --> B[Document Processing: load_pdf]
+    B --> C[Text Chunking & Embedding: create_vector_store]
     A --> D[User Query] --> E[Query Processing]
     C --> E
-    E --> F[LLM Integration (get_llm & get_answer_from_llm)]
+    E --> F[LLM Integration: get_llm + get_answer_from_llm]
     F --> G[Response Processing & Formatting]
 ```
 
